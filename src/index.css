@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+*{
+  font-family: 'Playfair Display', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fonts{
+  display: inline-block;
 }
+.font{
+height: 80px;
+width:100px;
+}
+
+ /* ul li{
+
+list-style: none;
+ bottom:105px; 
+ top: 216px;  
+animation: animate 5s  ease-in-out infinite;
+
+} */
+.node{
+  animation-delay: 1s;
+
+}
+.react{
+  animation-delay: 0.5s;
+  
+} 
+.bootstrap{
+  animation-delay: 1s;
+  
+}
+
+.css{
+  animation-delay: 0.5s;
+  
+} 
+
+
+/* @keyframes animate{
+
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+
+
+} */
+
+
+
+.icon{
+  height:25px;
+  width:25px;
+}
+
+.image{
+  animation: change 1s  ease-in-out infinite;
+
+  
+}
+@keyframes change{
+  0%{
+    background-image: url(images/circle1.png);
+    background-repeat:no-repeat;
+ 
+    
+  }
+  50%{
+    background-image: url(images/circle2.png);
+    background-repeat:no-repeat;
+   
+    
+  }
+  100%{
+    background-image: url(images/circle3.png);
+    background-repeat:no-repeat;
+  }
+
+}
+

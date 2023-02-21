@@ -1,0 +1,13 @@
+.progressbar{
+   
+    animation: animate 1s ease-in;
+ 
+}
+@keyframes animate {
+    from{
+     width: 10%;
+    }
+    to{
+        width: 80%;
+    }
+  }
