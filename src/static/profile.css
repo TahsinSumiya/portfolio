@@ -1,0 +1,83 @@
+.fonts{
+    display: inline-block;
+  }
+  .font{
+  height: 80px;
+  width:100px;
+  }
+  
+   /* ul li{
+  
+  list-style: none;
+   bottom:105px; 
+   top: 216px;  
+  animation: animate 5s  ease-in-out infinite;
+  
+  } */
+  .node{
+    animation-delay: 1s;
+  
+  }
+  .react{
+    animation-delay: 0.5s;
+    
+  } 
+  .bootstrap{
+    animation-delay: 1s;
+    
+  }
+  
+  .css{
+    animation-delay: 0.5s;
+    
+  } 
+  
+  
+  /* @keyframes animate{
+  
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-15px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  
+  
+  } */
+  
+  
+  
+  .icon{
+    height:25px;
+    width:25px;
+  }
+  
+  .image{
+    animation: change 1s  ease-in-out infinite;
+  
+    
+  }
+  @keyframes change{
+    /* 0%{
+      background-image: url(../images/circle1.png);
+      background-repeat:no-repeat;
+   
+      
+    } */
+    0%{
+      background-image: url(../images/circle2.png);
+      background-repeat:no-repeat;
+     
+      
+    }
+    100%{
+      background-image: url(../images/circle3.png);
+      background-repeat:no-repeat;
+    }
+  
+  }
+  
+  

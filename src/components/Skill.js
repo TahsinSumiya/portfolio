@@ -14,10 +14,10 @@ export default function Skill({icon,title,id,percentage}) {
   },[percentage])
   return (
     
-   <div className='skills-main ml-80 px-12  block '>
+   <div className='skills-main lg:ml-80 ml-auto px-12 block '>
         <div key={id} className='content space-y-9  '>
-                <div className='absolute left-72'>
-                     <img  className='h-10 w-15 ' src={icon} alt={title}></img>
+                <div className=' absolute left-72 '>
+                     <img  className='hidden lg:flex h-10 w-15' src={icon} alt={title}></img>
                 </div>
                 <div className='right'>
                      <h5>{title}</h5>

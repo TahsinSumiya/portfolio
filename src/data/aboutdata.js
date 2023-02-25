@@ -4,7 +4,7 @@ const aboutdata =[
 
 {
     title:"Hi! I am Tahsin Sumiya",
-    desc :"Ï am a frontend developer.i am very fond of designing and loves to design. i have a great passion in sketching So from starting of my university life i started taking interest in design and that lead me to fronend development"
+    desc :"Ï am a frontend developer.i am very fond of designing and loves to design. i have a great passion in sketching So from starting of my university life i started taking interest in design and that lead me to frontend development"
     ,
     image:about,
     image2:code,
