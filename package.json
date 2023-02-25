@@ -1,5 +1,5 @@
 {
-  "homepage":"http://TahsinSumiya.github.io/portfolio",
+  "homepage": "http://TahsinSumiya.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -25,11 +25,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "build": "tailwindcss -i ./input.css -o ./css/index.css",
     "watch": "tailwindcss -i ./input.css -o ./src/index.js --watch"
   },
   "eslintConfig": {
