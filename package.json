@@ -28,9 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build": "tailwindcss -i ./index.css -o ./css/index.css",
-    "watch": "tailwindcss -i ./index.js -o ./src/index.js --watch"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
